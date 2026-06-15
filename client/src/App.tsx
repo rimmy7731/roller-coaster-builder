@@ -22,7 +22,7 @@ function MusicController() {
   useEffect(() => {
     const base = import.meta.env.BASE_URL || '/';
     
-    const dayMusic = new Audio(`${base}sounds/music.mp3`);
+    const dayMusic = new Audio(`${base}sounds/song 1.mp3`);
     dayMusic.loop = true;
     dayMusic.volume = 0.5;
     setDaylightMusic(dayMusic);
